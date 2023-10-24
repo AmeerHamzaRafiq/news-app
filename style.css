@@ -1,0 +1,65 @@
+body{
+    background: #ebe9e9;
+}
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .title-div {
+  margin-left: 65px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  }
+  .h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    background: #000;
+    color: #ebe9e9;
+  }
+
+  .title-div:hover {
+    transform: scale(1.05);
+  }
+
+   .cardImg{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+  .title {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .para {
+    margin: 10px 0;
+    color: #666;
+  }
+
+  .btn {
+    background-color: #0074cc;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+  }
+
+  .btn:hover {
+    background-color: #005aa4;
+  }
